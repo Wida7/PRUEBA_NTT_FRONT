@@ -1,0 +1,35 @@
+[
+    {
+        "primerNombre": "Prueba",
+        "segundoNombre": "",
+        "primerApellido": "Test",
+        "segundoApellido": "",
+        "telefono": "3057724054",
+        "direccion": "Calle 123",
+        "ciudadDeResidencia": "Medellin",
+        "identificacion": "12345678",
+        "tipoIdentificacion": "C"
+    },
+    {
+        "primerNombre": "Juan",
+        "segundoNombre": "Carlos",
+        "primerApellido": "Rodriguez",
+        "segundoApellido": "Linares",
+        "telefono": "3013011234",
+        "direccion": "Calle 123",
+        "ciudadDeResidencia": "Bogotá",
+        "identificacion": "23445322",
+        "tipoIdentificacion": "C"
+    },
+    {
+        "primerNombre": "Jhenny",
+        "segundoNombre": "Alexandra",
+        "primerApellido": "Pérez",
+        "segundoApellido": "Gómez",
+        "telefono": "3216549877",
+        "direccion": "Calle 123",
+        "ciudadDeResidencia": "Barranquilla",
+        "identificacion": "1039454860",
+        "tipoIdentificacion": "C"
+    }
+]

@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-center">
+    <form class="d-inline-flex flex-column p-4 bg-fondo border rounded m-5" [formGroup]="userData" (ngSubmit)="handleSubmit()">
+        <p class="text-secondary">Todos los campos son obligatorios</p>
+        <label for="tipoDocumento" class="rounded">Tipo de documento</label>
+        <select id="tipoDocumento" name="tipoDocumento" formControlName="tipoDocumento" class="rounded p-1" required>
+            <option value="" disabled selected>Seleccione una opción</option>
+            <option value="C">Cédula de ciudadanía</option>
+            <option value="P">Pasaporte</option>
+        </select>
+
+        <label for="documento" class="mt-2">Número de documento</label>
+        <input type="text" id="documento" name="documento" formControlName="documento" [value]="documentoVisual" (input)="formatNumber($event)" required>
+
+        <button type="submit" [disabled]="userData.invalid" class="rounded-pill m-4 px-5 py-2 border-0 bg-azul text-light">Buscar</button>
+    </form>
+</div>

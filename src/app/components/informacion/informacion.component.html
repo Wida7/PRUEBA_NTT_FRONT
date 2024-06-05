@@ -1,0 +1,11 @@
+<div class="d-flex justify-content-center">
+    <form class="d-inline-flex flex-column p-4 bg-fondo border rounded m-5">
+        <p class="text-black fw-semibold">Información básica</p>
+        <p class="text-danger fw-semibold">{{mensaje}}</p>
+        <label for="tipoDocumento" class="rounded text-secondary">Primer apellido</label>
+        <input type="text" id="documento" class="text-secondary" name="documento" formControlName="documento" [value]="primerApellido"  disabled>
+        <label for="documento" class="mt-2 text-secondary">Primer nombre</label>
+        <input type="text" id="documento" class="text-secondary" name="documento" formControlName="documento" [value]="primerNombre"  disabled>
+        <button (click)="volver()" class="rounded-pill m-4 px-5 py-2 border-0 bg-azul text-light">Volver</button>
+    </form>
+</div>
